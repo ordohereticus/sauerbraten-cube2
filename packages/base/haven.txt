@@ -1,0 +1,16 @@
+Haven by Frosty, AriKani, Nieb & Kim
+(2022-12-31)
+
+A cozy duel map inside a small castle. Special thanks to AriKani, Nieb & Kim for spending a significant amount of time contributing to the map.
+Also a small thanks to cordezZ for his cute easter egg, Pointblank for his cube font, and to those who playtested the map and gave feedback.
+
+This map is licensed under the Creative Commons (CC BY-NC-SA 4.0) license, which can be viewed at creativecommons.org
+    https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+Thanks to Simon O'Callaghan for creating the textures used with this map
+    http://www.simonoc.com/pages/artwork.htm
+
+The textures are licensed under the Creative Commons (CC BY-NC-SA 3.0) license, which can be viewed at creativecommons.org
+    https://creativecommons.org/licenses/by-nc-sa/3.0/
+
