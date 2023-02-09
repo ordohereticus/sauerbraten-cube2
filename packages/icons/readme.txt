@@ -1,22 +1,29 @@
 action.jpg
-checkbox_off.jpg
-checkbox_on.jpg
+arrow_*.jpg
+checkbox_*.jpg
 exit.jpg
 info.jpg
 menu.jpg
 ogro.jpg
-radio_off.jpg
-radio_on.jpg
+radio_*.jpg
 
 (c) 2006-2007 Markus "makkE" Bekel
 ALL RIGHTS RESERVED
 
 ------------------------------------
+checkbox_*.jpg
+menu.jpg
+radio_*.jpg
+val_*.jpg
 
-serverfull.jpg  
-server.jpg  
-serverlock.jpg  
-serverpriv.jpg  
+by Nieb, based on makkE's original work.
+
+------------------------------------
+
+serverfull.jpg
+server.jpg
+serverlock.jpg
+serverpriv.jpg
 serverunk.jpg
 
 CC-BY-SA, Joshua "verbalshadow" Blocher
