@@ -87,13 +87,28 @@
 </ul>
 <h4>Updates:</h4>
 <ul>
-    <li>EditHUD overhauled.</li>
-    <li>Menus overhauled.</li>
+    <li>CFGs reworked.</li>
+    <ul>
+        <li>Renamed most internal aliases to remove console auto-complete pollution.</li>
+        <li>Most user facing aliases have the same name; however, some have changed. You may need to update your configs.</li>
+        <ul>
+            <li>TODO: list changed aliases...</li>
+        </ul>
+    </ul>
+    <li>EditHUD reworked.</li>
+    <ul>
+        <li>Now shows full parameters of selected face texture or selected entity.</li>
+    </ul>
+    <li>Menus reworked.</li>
+    <ul>
+        <li>...</li>
+    </ul>
     <li>Transient and persistent variables in CubeScript:</li>
     <ul>
         <li>Integer:&nbsp;                 <b>defvar|defvarp&nbsp;&nbsp;&nbsp;&nbsp; <i>"Name" Min Default Max [OnChange]</i></b></li>
         <li>Float:&nbsp;&nbsp;&nbsp;&nbsp; <b>deffvar|deffvarp&nbsp;&nbsp;           <i>"Name" Min Default Max [OnChange]</i></b></li>
         <li>String:&nbsp;&nbsp;&nbsp;&nbsp;<b>defsvar|defsvarp                       <i>"Name"    "Default"    [OnChange]</i></b></li>
+        <li>If <b>Max < Min</b> then variable is declared as ReadOnly.</li>
     </ul>
     <li><b>menufps</b> is now persistent.</li>
     <li>Five more mouse buttons bind-able. (MOUSE8 through MOUSE12)
@@ -102,23 +117,34 @@
         <li><b>texsmooth <i>groupID</i></b></li>
         <li><b>smoothangle <i>groupID angle_threshold</i></b></li>
     </ul>
+    <div style="display: block; margin: 4px 0;"></div>
     <li>Miscellaneous new commands/vars:</li>
     <ul>
-        <li><b>fogdomesquare <i>0|1</i></b> -- Squared gradient falloff, instead of linear.</li>
-        <div style="display: block; margin: 2px 0;"></div>
-        <li><b>numoctaents</b> -- Returns number of entities in current map.</li>
-        <div style="display: block; margin: 2px 0;"></div>
-        <li><b>replacetex <i>NewID OldID</i></b> -- Replace textures via indexes.</li>
-        <li><b>replacetexsel <i>NewID OldID</i></b> -- Replace textures via indexes.</li>
-        <div style="display: block; margin: 2px 0;"></div>
-        <li><b>editmatoffset <i>0|1</i></b> -- Disable/enable position offset of material volume surfaces.</li>
-        <li><b>selectionoffset <i>0|1</i></b> -- Disable/enable position offset of selection outlines.</li>
-        <div style="display: block; margin: 2px 0;"></div>
-        <li><b>showsky <i>0|1</i></b> -- "showsky 0" with "skytexture 0" now hides skytexture surfaces in editmode.</li>
-        <li><b>showskyoutline <i>0|1</i></b> -- Still show wireframe outline with "showsky 0".</li>
-        <li><b>skyoutlinecolour <i>R G B</i></b> -- Color of said outline.</li>
-        <div style="display: block; margin: 2px 0;"></div>
-        <li><b>strrstr <i>StringToSearchIn StringToSearchFor</b> -- Reverse string search.</li>
+        <li><b>fogdomesquare <i>0|1</i></b></li>
+        <ul><li>Squared gradient falloff, instead of linear.</li></ul>
+        <div style="display: block; margin: 4px 0;"></div>
+        <li><b>numoctaents</b></li>
+        <ul><li>Returns number of entities in current map.</li></ul>
+        <div style="display: block; margin: 4px 0;"></div>
+        <li><b>replacetex <i>NewID OldID</i></b></li>
+        <ul><li>Replace texture slots via index.</li></ul>
+        <li><b>replacetexsel <i>NewID OldID</i></b></li>
+        <ul><li>Replace texture slots via index, within selection.</li></ul>
+        <div style="display: block; margin: 4px 0;"></div>
+        <li><b>editmatoffset <i>0|1</i></b></li>
+        <ul><li>Disable/enable position offset of material volume surfaces.</li></ul>
+        <li><b>selectionoffset <i>0|1</i></b></li>
+        <ul><li>Disable/enable position offset of selection outlines.</li></ul>
+        <div style="display: block; margin: 4px 0;"></div>
+        <li><b>showsky <i>0|1</i></b></li>
+        <ul><li>"showsky 0" with "skytexture 0" now hides skytexture surfaces in editmode.</li></ul>
+        <li><b>showskyoutline <i>0|1</i></b></li>
+        <ul><li>Still show wireframe outline with "showsky 0".</li></ul>
+        <li><b>skyoutlinecolour <i>R G B</i></b></li>
+        <ul><li>Color of said outline.</li></ul>
+        <div style="display: block; margin: 4px 0;"></div>
+        <li><b>strrstr <i>String_LookInHere String_FindMe</i></b></li>
+        <ul><li>Reverse string search.</li></ul>
     </ul>
 </ul>
 

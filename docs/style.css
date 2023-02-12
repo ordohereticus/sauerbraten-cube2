@@ -27,3 +27,4 @@ ul.contents     { list-style-type: decimal; list-style-position: outside; }
 ul.contents2    { list-style-type: disc;    list-style-position: outside; }
 ul.contents3    { list-style-type: square;  list-style-position: outside; }
 
+li              { margin: 2px 0px 2px 0px; } /* top, right, bottom, left */
