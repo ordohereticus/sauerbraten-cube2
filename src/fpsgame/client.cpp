@@ -915,6 +915,8 @@ namespace game
         if(remote) stopfollowing();
         ignores.setsize(0);
         connected = remote = false;
+        servdesc[0] = '\0';
+        servauth[0] = '\0';
         player1->clientnum = -1;
         sessionid = 0;
         mastermode = MM_OPEN;
